@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-// import { NgModule } from "@angular/core";
+
 @Component({
   selector: 'app-box2',
   templateUrl: './box2.component.html',
@@ -32,15 +32,6 @@ export class Box2Component implements OnInit {
     }
    
   }
-  // check(id:number)
-  // {
-  //   if(id %5 == 0)
-  //   {
-  //     this.color="blue";
-  //   }
-  //   else{
-  //     this.color="white";
-  //   }
-  // }
+ 
 
 }
