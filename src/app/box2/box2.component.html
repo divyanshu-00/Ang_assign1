@@ -7,7 +7,9 @@
 <div class="d-grid gap-2 col-6 mx-auto">
     <div class="input-group flex-nowrap">
         
-        <input type="text" class="form-control" #input placeholder="Enter here..." aria-label="detail" aria-describedby="addon-wrapping" value="{{value}}">
+
+        
+        <input type="text" class="form-control" #input placeholder="Enter here..." aria-label="detail" aria-describedby="addon-wrapping" value="{{value}}" [(ngModel)]="name" required>
     </div>
         <button class="btn btn-primary " (click)="add(input.value)" type="button">Add</button>
     </div>
